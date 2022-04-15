@@ -2,7 +2,7 @@
 [tool.poetry]
 name = "copier"
 # This version is a placeholder autoupdated by poetry-dynamic-versioning
-version = "0.0.0"
+version = "5.1.1"
 description = "A library for rendering project templates."
 license = "MIT"
 classifiers = [
@@ -32,11 +32,12 @@ jinja2 = "^2.11.2"
 pathspec = "^0.8.0"
 plumbum = "^1.6.9"
 pydantic = "^1.5.1"
-regex = "^2020.6.8"
+regex = "^2022.3.15"
 pyyaml = "^5.3.1"
 pyyaml-include = "^1.2"
 # packaging is needed when installing from PyPI
 packaging = "^20.4"
+MarkupSafe = "2.0.1"
 mkdocstrings = {version = "^0.12.2", optional = true}
 mkdocs-material = {version = "^5.5.2", optional = true}
 # HACK https://readthedocs.org/api/v2/build/11653917.txt
